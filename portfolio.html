@@ -4,51 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+
+
 </head>
 <body>
 
+    <header>
+
+            <h1>Welcome to My Portfolio</h1>
+
+            
+
+                <div>
+                    <a href ="#About">
+                    
+                    <button class = "button">
+                        About
+                    </button>
+
+                    </a>
+                    <br>
+                    <br>
 
 
-            <header>
-
-                <h1>Welcome to My Portfolio</h1>
-
-            <a href ="">
-            <button>
-                About
-            </button>
-
-            </a>
-
-            <a href ="">
-            <button>
-                Skills
-            </button>
-
-            </a>
-            <a href ="">
-            <button>
-                Projects
-            </button>
-
-            </a>
-            <a href ="">
-            <button>
-                contact
-            </button>
-
-            </a>
-
-            </header>
+                    <a href ="#skills">
+                    <button class = "button">
+                        Skills
+                    </button>
 
 
-            <main>
+                    </a>
+                    <br>
+                    <br>
+
+                    <a href ="#projects">
+                    <button class = "button">
+                        Projects
+                    </button>
+
+
+                    </a>
+                    <br>
+                    <br>
+
+                    <a href ="#contact">
+                    <button class = "button">
+                        Contact</button>
+
+                    </a>
+                </div>
+    
+              </header>
+            
+            
+        
+            <main class = "main">
 
 
                 <section id ="About">
                     <h1>Sirisha Ella</h1>
-
-
+                    <img src=//"sirisha.img.jpeg" alt="my image">
 
                     <p>I am 2025 B.tech graduate from <em>sir cr reddy college of engineering </em> in Eluru<br>I am a passionate full stack developer<br>you can <strong>click here </strong>to Checkout what i have learnt in HTML,CSS,JS</Html></p>
 
@@ -58,87 +76,32 @@
                 <section id ="skills">
 
                     
-                    <h1>My Skills</h1>
-                    <ol>
-                        <li>Java Bascis</li>
-                        <li>HTML Basics</li>
-                        <li>CSS Basics</li>
+                        <h1>My Skills</h1>
+                        <ol>
+                            <li>JAVA </li>
 
-                    </ol>
+                            <li>HTML</li>
+                            <li>CSS</li>
 
-
-
-                </section>
-
-
-                <section id ="contact">
-
-                    <h1>Contact Me</h1>
-
-        <form>
-
-                <label>Name</label>
-                <input type ="text">
-
-
-                <br>
-                <br>
-                <label>Email</label>
-                <input type ="Email">
-                <br>
-                <br>
-
-                <b>choose your gender</b>
-
-                <input type ="radio" id = "Male">
-                <label for = "Male">Male</label>
-
-
-                <input type ="radio" id = "female">
-                <label for = "female">female</label>
-                 
-
-                <br>
-                <br>
-                    <b> Select your interests</b>
-
-
-                <input type ="checkbox" id="Front end">
-
-                <label for = "Front end">Front end</label>
-
-                
-
-                <input type ="checkbox" id="Back end">
-
-                <label for = "back end">Back end</label>
-
-
-                <br>
-                <br>
-
-
-                <button>Submit</button>
-
-
+                        </ol>
 
 
                 </section>
 
-                <section id = "project"> 
-                      <h1>My Projects</h1>
+            <section id = "projects"> 
+                <h1>My Projects</h1>
 
-                      <table border ="1">
+                <table border ="1">
 
-                <tr>
+                     <tr>
                     <th>Project</th>
 
                     <th>Description</th>
 
-                </tr>
+                    </tr>
 
 
-                <tr>
+                    <tr>
 
                     <td>
 
@@ -147,71 +110,99 @@
 
                     <td>
 
-                        I have created a profolio website using HTML
+                     I have created a profolio website using HTML
                     </td>
-                </tr>
+                    </tr>
 
-                <td>Bart project</td>
+                    <td>Bart project</td>
 
-                <td>
+                     <td>
 
                     I have  done a project using BART
-                </td>
+                    </td>
 
-                <tr>
+                   <tr>
+
+  
+                   </tr>
+
+                </table>
 
 
-                </tr>
 
-             </table>
-
-
-
-                      
-
-                    
             </section>
 
-            </main>
-            
-
-            <footer>
 
 
-                 
-                
-            </footer>
-
-    
-
-
-
-    
-      
-        
-        
                
 
 
-         
+                <section id ="contact">
+
+                <h1>Contact</h1>
+
+                    <form action="">
+                        <div>
+
+                        <label>Name:-</label>
+                        <input type ="text">
 
 
+                        </div>
 
-        </form>
+                        <div>
+                        <label>Email:-</label>
+                        <input type ="Email">
+                        </div>
+
+                        <div>
+
+                        <b>choose your gender</b>
+
+                        <input type ="radio" name ="gender" id = "Male">
+
+                        <label for = "Male">Male</label>
 
 
+                        <input type ="radio" Name= "gender"id = "female">
+                        <label for = "female">female</label>
+                        
+
+                       </div>
+
+                       <div>
+                                    <b> Select your interests</b>
 
 
+                                <input type ="checkbox" id="Front end">
+
+                                <label for = "Front end">Front end</label>
+
+                                
+
+                                <input type ="checkbox" id="Back end">
+
+                                <label for = "back end">Back end</label>
 
 
+                       </div>
+                        
+                        <button type ="submit" class = "submit">Submit</button>
+                    
+                        </form>
+                        </section>
+            </main>
+            
 
+           <a href="">
+            <button class = "fixedbutton">TOP</button>
 
-
-
-
-
-
-
+           </a>
+            
+             <footer >
+                <p>@ 2025 my portfolio</p>
+            </footer>
+        
 
 
 </body>
